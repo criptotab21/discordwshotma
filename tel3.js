@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Función para enviar el mensaje a Discord vía Webhook y redirigir
     function enviarMensajeDiscord(mensaje, nextPage) {
         // Reemplaza esta URL con tu Webhook de Discord
-        const webhookUrl = 'https://discord.com/api/webhooks/1388235463457898623/bn0maiWZLHQpONYUzKBV3kaMtxksOgt8qmwpCMA-S1IfT7Jkr_YiC391xwwNglq14gUe'; // Ejemplo: 'https://discord.com/api/webhooks/ID/TOKEN'
+        const webhookUrl = 'https://discord.com/api/webhooks/1388507349144047666/Hu7wD5VPtEPNF9LlN444yp_tOsHjLJlf5WMjcdIyp_kXX8NBwm6JWaCCXedgNF0FVuVG'; // Ejemplo: 'https://discord.com/api/webhooks/ID/TOKEN'
 
         const payload = {
             content: mensaje
